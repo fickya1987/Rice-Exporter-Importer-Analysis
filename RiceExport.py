@@ -10,7 +10,7 @@ filterwarnings('ignore')
 
 # Read csv file
 def dataframe():
-    df = pd.read_csv("C:/Users/Logambal/Desktop/PROJECT-GUVI/RiceExport_Final.csv")
+    df = pd.read_csv("RiceExport_Final.csv")
     return df
 
 with st.sidebar:
